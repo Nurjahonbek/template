@@ -1,12 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./main.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/output.css">
+    <title>Ringo</title>
 </head>
-<body>
-    <h1>hello</h1>
+<body class=" font-railway  ">
+    <div class="container mx-auto w-[1200px]">
+
+
+        <header class=" flex items-center justify-between py-10">
+            <a href="#">
+                <img src="./images/logo.svg" alt="">
+            </a>
+            <ul class="flex items-center justify-between gap-x-10 font-medium text-base">
+            <li>
+                <a href="#">Напрямки</a>
+            </li>
+            <li>
+                <a href="#">Про компанію</a>
+            </li>
+            <li>
+                <a href="#">Переваги</a>
+            </li>
+            <li>
+                <a href="#">Етапи роботи</a>
+            </li>
+            </ul>
+            <div class="flex items-center justify-between gap-x-10">
+                <img class="cursor-pointer" src="./images/header-social.png" alt="">
+                <a href="tel:+380 67661 5415">
+                    <img  src="./images/num.png" alt="">
+                </a>
+            </div>
+        </header>
+
+        <div class="bg-[url('./images/bg-img.jpg')] bg-red-200 bg-cover bg-center py-[70px] mb-20 hero">
+            <div class="flex justify-center items-center flex-col">
+                <h1 class="text-6xl mb-5 font-bold font-lato text-center text-white">виробництво <br>меблів</h1>
+                <p class="text-lg text-white font-medium w-[530px] text-center mb-14">Ми виконуємо комплексне виготовлення корпусних меблів для житлових і комерційних приміщень, забезпечимо Вас якісним меблевим продуктом власного виробництва. </p>
+                <button class="bg-[#AE7B3C] px-[50px] py-[22px] text-white font-bold text-base">Обговорити проект</button>
+            </div>
+        </div>
+
+        <div class=" pb-16 ">
+            <h2 class="font-semibold text-[46px] text-center mb-20">Основні напрямки</h2>
+            <div class="flex items-center justify-between">
+                <hr class="w-0.5 opacity-50 ml-3  h-[450px] block  bg-[#282B22]">
+                <div class="">
+                    <span class="text-[#282B22] font-semibold text-2xl opacity-50 mb-11 block">01</span>
+                    <h3 class="text-[#3D4A39] text-2xl font-semibold mb-7">Дизайн інтерєру</h3>
+                    <img src="./images/info1.jpg" alt="">
+                </div>
+                <hr class="w-0.5 opacity-50 h-[450px] block  bg-[#282B22]">
+                <div>
+                    <span class="text-[#282B22] font-semibold text-2xl opacity-50 mb-11 block">02</span>
+                    <h3 class="text-[#3D4A39] text-2xl font-semibold mb-7">Виробництво меблів</h3>
+                    <img src="./images/info2.jpg" alt="">
+                </div>
+                <hr class="w-0.5  opacity-50 h-[450px] block  bg-[#282B22]">
+                <div>
+                    <span class="text-[#282B22] font-semibold text-2xl opacity-50 mb-11 block">03</span>
+                    <h3 class="text-[#3D4A39] text-2xl font-semibold mb-7">Комплексне меблювання</h3>
+                    <img src="./images/info3.jpg" alt="">
+                </div>
+                <hr class="w-0.5 opacity-50 mr-3  h-[450px] block  bg-[#282B22]">
+            </div>
+        </div>
+
+        <main class="mb-[70px]">
+            <div class="bg-[#3D4A39] pb-36 mb-[70px]">
+                <h2 class="font-semibold text-[45px] text-white text-center py-[70px] ">Ми забезпечемо вас </h2>
+                <div class="flex items-center justify-center gap-x-[170px] mb-10">
+                    <img class="cursor-pointer" src="./images/Меблями.png" alt="">
+                    <img class="cursor-pointer" src="./images/Освітленням.png" alt="">
+                    <img class="cursor-pointer" src="./images/Побутовою технікою.png" alt="">
+                </div>
+                <div class="flex items-center justify-center gap-x-[140px] "> 
+                    <img class="cursor-pointer" src="./images/Дверима.png" alt="">
+                    <img class="cursor-pointer" src="./images/Стінові панелі.png" alt="">
+                    <img class="cursor-pointer" src="./images/Проектуванням.png" alt="">
+                </div>
+            </div>
+            <div class="relative py-[70px] ">
+                <img class="left-0 top-0 absolute" src="./images/Rectangle 14.png" alt="">
+                <h3 class="font-semibold text-4xl w-[800px] text-[#282B22] text-center mx-auto mb-20">Проект Рінго Україна - створений виконувати об`єктні задачі комплексного меблювання житлових та комерційних приміщень. </h3>
+                <div class="flex justify-center gap-x-[100px] mx-auto items-center w-[1000px]">
+                    <img class="right-0 bottom-8 absolute" src="./images/Rectangle 15.png" alt="">
+                    <p class="w-[370px] text-[#282B22] text-lg font-medium">Наш колектив націлений на результат - вчасно реалізувати проект на найвищому рівні. Ми забезпечуємо спокій замовника та вирішуємо будь-які задачі</p>
+                    <p class="w-[370px] text-[#282B22] text-lg font-medium">Рінго найкращий підрядник прораба, дизайнера, проект-менеджера або персональний помічник власника бізнесу, квартири чи салону</p>
+                </div>
+            </div>
+
+            <div class=" relative ">
+                <h3 class="text-center font-semibold text-[46px] mb-20 ">Наші переваги</h3>
+                <div class="flex items-center justify-between mb-10">
+                    <span class="text-[#282B22] opacity-30 font-semibold text-[24px] ">01</span>
+                    <div class="w-[500px]">
+                        <h4 class="text-[#282B22] font-semibold text-[32px] mb-2.5">Мобільність</h4>
+                        <p class="text-[#282B22] text-base font-normal">Проводимо зустрічі на об`єктах в затишних закладах Києва</p>
+                    </div>
+                </div>
+                <hr class="block bg-[#282B22] w-[1200px]">
+                <div class="flex items-center justify-between mb-10">
+                    <span class="text-[#282B22] opacity-30 font-semibold text-[24px] ">02</span>
+                    <div class="w-[500px]">
+                        <h4 class="text-[#282B22] font-semibold text-[32px] mb-2.5">Надійність</h4>
+                        <p class="text-[#282B22] text-base font-normal w-[470px]">Система нашої роботи зосереджена на якості та термінах завершення проекту</p>
+                        <img class="  absolute top-96 left-10 " src="./images/Rectangle 16.png" alt="">
+                    </div>
+                </div>
+                <hr class="block bg-[#282B22] w-[1200px]">
+                <div class="flex items-center justify-between mb-10">
+                    <span class="text-[#282B22] opacity-30 font-semibold text-[24px] ">03</span>
+                    <div class="w-[500px]">
+                        <h4 class="text-[#282B22] font-semibold text-[32px] mb-2.5">Якість</h4>
+                        <p class="text-[#282B22] w-[475px] text-base font-normal">Виготовляємо виключно з перевірених європейських брендів</p>
+                    </div>
+                </div>
+                <hr class="block bg-[#282B22] w-[1200px]">
+                <div class="flex items-center justify-between mb-10">
+                    <span class="text-[#282B22] opacity-30 font-semibold text-[24px] ">04</span>
+                    <div class="w-[500px]">
+                        <h4 class="text-[#282B22] font-semibold text-[32px] mb-2.5">Професіоналізм</h4>
+                        <p class="text-[#282B22] text-base font-normal w-[490px]">Наша команда - це клуб професіоналів, об`єднаних в одній компанії</p>
+                    </div>
+                </div>
+                <hr class="block bg-[#282B22] w-[1200px]">
+                <div class="flex items-center justify-between mb-10 ">
+                    <span class="text-[#282B22] opacity-30 font-semibold text-[24px] ">05</span>
+                    <div class="w-[500px]">
+                        <h4 class="text-[#282B22] font-semibold text-[32px] mb-2.5">Вигідність </h4>
+                        <p class="text-[#282B22] text-base font-normal">Ми відмовились від шоу-руму та офісу на користь вартості та мобільності</p>
+                    </div>
+                </div>
+                <hr class="block bg-[#282B22] w-[1200px]">
+            </div>
+        </main>
+    </div>
 </body>
 </html>
